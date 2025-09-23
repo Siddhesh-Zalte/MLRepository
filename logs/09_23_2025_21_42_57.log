@@ -1,0 +1,18 @@
+[2025-09-23 21:42:57,873] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-09-23 21:42:57,884] 97 werkzeug - INFO -  * Debugger PIN: 282-356-313
+[2025-09-23 21:43:39,069] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:43:39] "GET / HTTP/1.1" 200 -
+[2025-09-23 21:43:39,225] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:43:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-09-23 21:44:21,657] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:44:21] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[2025-09-23 21:44:21,759] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:44:21] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2025-09-23 21:44:21,782] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:44:21] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2025-09-23 21:44:21,853] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:44:21] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=ESKyqYLKgzsOExoqG0XN HTTP/1.1" 200 -
+[2025-09-23 21:44:21,865] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:44:21] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[2025-09-23 21:44:45,264] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:44:45] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[2025-09-23 21:44:45,296] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:44:45] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-09-23 21:44:45,311] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:44:45] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-09-23 21:44:45,348] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:44:45] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=ESKyqYLKgzsOExoqG0XN HTTP/1.1[0m" 304 -
+[2025-09-23 21:47:07,480] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:47:07] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[2025-09-23 21:47:07,529] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:47:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-09-23 21:47:07,531] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:47:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-09-23 21:47:07,566] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:47:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=ESKyqYLKgzsOExoqG0XN HTTP/1.1[0m" 304 -
+[2025-09-23 21:47:07,594] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:47:07] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

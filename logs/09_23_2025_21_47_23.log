@@ -1,0 +1,8 @@
+[2025-09-23 21:47:23,420] 97 werkzeug - WARNING -  * Debugger is active!
+[2025-09-23 21:47:23,429] 97 werkzeug - INFO -  * Debugger PIN: 282-356-313
+[2025-09-23 21:47:32,694] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:47:32] "GET / HTTP/1.1" 200 -
+[2025-09-23 21:48:00,122] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:48:00] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[2025-09-23 21:48:00,180] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:48:00] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[2025-09-23 21:48:00,183] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:48:00] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[2025-09-23 21:48:00,254] 97 werkzeug - INFO - 127.0.0.1 - - [23/Sep/2025 21:48:00] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png&s=RXVjfyv1LMJmyIhrwbAj HTTP/1.1" 200 -
+[2025-09-23 21:48:28,188] 97 werkzeug - INFO -  * Detected change in 'D:\\MLRepository\\app.py', reloading
