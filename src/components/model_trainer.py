@@ -32,13 +32,13 @@ class ModelTrainer:
                 "Decision Tree": DecisionTreeRegressor(),
                 "Gradient Boosting": GradientBoostingRegressor(),
                 "Linear Regression": LinearRegression(),
-                "K-Neighbors Classifier": KNeighborsRegressor(),
-                "XGBClassifier": XGBRegressor(),
-                "CatBoosting Classifier":CatBoostRegressor(verbose=False),
-                "AdaBoost Classifier":AdaBoostRegressor()
+               
+                "XGBRegressor": XGBRegressor(),
+                "CatBoosting Regressor": CatBoostRegressor(verbose=False),
+                "AdaBoost Regressor": AdaBoostRegressor(),
             }
 
-            params={
+            parms={
                 "Decision Tree": {
                     'criterion':['squared_error', 'friedman_mse', 'absolute_error', 'poisson'],
                     # 'splitter':['best','random'],
@@ -78,7 +78,7 @@ class ModelTrainer:
 
             model_report:dict=evaluate_models(X_train=X_train, y_train= y_train,
                                               X_test=X_test,y_test= y_test, 
-                                              models=models, params=params)
+                                              models=models, params=parms)
             
             best_model_score=max(sorted(model_report.values()))
             best_model_name=list(model_report.keys())[
